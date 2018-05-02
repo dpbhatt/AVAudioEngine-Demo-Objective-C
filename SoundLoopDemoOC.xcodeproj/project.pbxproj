@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CB26AE12098504200CC928E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB26AE02098504200CC928E /* AppDelegate.m */; };
+		3CB26AE42098504200CC928E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB26AE32098504200CC928E /* ViewController.m */; };
+		3CB26AE72098504200CC928E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CB26AE52098504200CC928E /* Main.storyboard */; };
+		3CB26AE92098504600CC928E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CB26AE82098504600CC928E /* Assets.xcassets */; };
+		3CB26AEC2098504600CC928E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CB26AEA2098504600CC928E /* LaunchScreen.storyboard */; };
+		3CB26AEF2098504600CC928E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB26AEE2098504600CC928E /* main.m */; };
+		3CB26AF92098509C00CC928E /* flatline.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3CB26AF52098509C00CC928E /* flatline.wav */; };
+		3CB26AFA2098509C00CC928E /* bell_multiple.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3CB26AF62098509C00CC928E /* bell_multiple.wav */; };
+		3CB26AFB2098509C00CC928E /* Beep.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3CB26AF72098509C00CC928E /* Beep.wav */; };
+		3CB26AFC2098509C00CC928E /* buzzer_x.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3CB26AF82098509C00CC928E /* buzzer_x.wav */; };
+		3CB26B002098549E00CC928E /* AudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB26AFF2098549E00CC928E /* AudioPlayer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3CB26ADC2098504200CC928E /* SoundLoopDemoOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundLoopDemoOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CB26ADF2098504200CC928E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3CB26AE02098504200CC928E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3CB26AE22098504200CC928E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3CB26AE32098504200CC928E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3CB26AE62098504200CC928E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3CB26AE82098504600CC928E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CB26AEB2098504600CC928E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3CB26AED2098504600CC928E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CB26AEE2098504600CC928E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3CB26AF52098509C00CC928E /* flatline.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = flatline.wav; sourceTree = "<group>"; };
+		3CB26AF62098509C00CC928E /* bell_multiple.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bell_multiple.wav; sourceTree = "<group>"; };
+		3CB26AF72098509C00CC928E /* Beep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Beep.wav; sourceTree = "<group>"; };
+		3CB26AF82098509C00CC928E /* buzzer_x.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = buzzer_x.wav; sourceTree = "<group>"; };
+		3CB26AFF2098549E00CC928E /* AudioPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioPlayer.m; sourceTree = "<group>"; };
+		3CB26B01209854C300CC928E /* AudioPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioPlayer.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CB26AD92098504200CC928E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CB26AD32098504200CC928E = {
+			isa = PBXGroup;
+			children = (
+				3CB26ADE2098504200CC928E /* SoundLoopDemoOC */,
+				3CB26ADD2098504200CC928E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CB26ADD2098504200CC928E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CB26ADC2098504200CC928E /* SoundLoopDemoOC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CB26ADE2098504200CC928E /* SoundLoopDemoOC */ = {
+			isa = PBXGroup;
+			children = (
+				3CB26AF72098509C00CC928E /* Beep.wav */,
+				3CB26AF62098509C00CC928E /* bell_multiple.wav */,
+				3CB26AF82098509C00CC928E /* buzzer_x.wav */,
+				3CB26AF52098509C00CC928E /* flatline.wav */,
+				3CB26ADF2098504200CC928E /* AppDelegate.h */,
+				3CB26AE02098504200CC928E /* AppDelegate.m */,
+				3CB26AE22098504200CC928E /* ViewController.h */,
+				3CB26AE32098504200CC928E /* ViewController.m */,
+				3CB26AE52098504200CC928E /* Main.storyboard */,
+				3CB26AE82098504600CC928E /* Assets.xcassets */,
+				3CB26AEA2098504600CC928E /* LaunchScreen.storyboard */,
+				3CB26AED2098504600CC928E /* Info.plist */,
+				3CB26AEE2098504600CC928E /* main.m */,
+				3CB26AFF2098549E00CC928E /* AudioPlayer.m */,
+				3CB26B01209854C300CC928E /* AudioPlayer.h */,
+			);
+			path = SoundLoopDemoOC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CB26ADB2098504200CC928E /* SoundLoopDemoOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CB26AF22098504600CC928E /* Build configuration list for PBXNativeTarget "SoundLoopDemoOC" */;
+			buildPhases = (
+				3CB26AD82098504200CC928E /* Sources */,
+				3CB26AD92098504200CC928E /* Frameworks */,
+				3CB26ADA2098504200CC928E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoundLoopDemoOC;
+			productName = SoundLoopDemoOC;
+			productReference = 3CB26ADC2098504200CC928E /* SoundLoopDemoOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CB26AD42098504200CC928E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Sensus ApS";
+				TargetAttributes = {
+					3CB26ADB2098504200CC928E = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 3CB26AD72098504200CC928E /* Build configuration list for PBXProject "SoundLoopDemoOC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CB26AD32098504200CC928E;
+			productRefGroup = 3CB26ADD2098504200CC928E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CB26ADB2098504200CC928E /* SoundLoopDemoOC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CB26ADA2098504200CC928E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB26AFC2098509C00CC928E /* buzzer_x.wav in Resources */,
+				3CB26AEC2098504600CC928E /* LaunchScreen.storyboard in Resources */,
+				3CB26AE92098504600CC928E /* Assets.xcassets in Resources */,
+				3CB26AE72098504200CC928E /* Main.storyboard in Resources */,
+				3CB26AFA2098509C00CC928E /* bell_multiple.wav in Resources */,
+				3CB26AFB2098509C00CC928E /* Beep.wav in Resources */,
+				3CB26AF92098509C00CC928E /* flatline.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CB26AD82098504200CC928E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB26AE42098504200CC928E /* ViewController.m in Sources */,
+				3CB26AEF2098504600CC928E /* main.m in Sources */,
+				3CB26AE12098504200CC928E /* AppDelegate.m in Sources */,
+				3CB26B002098549E00CC928E /* AudioPlayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3CB26AE52098504200CC928E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CB26AE62098504200CC928E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3CB26AEA2098504600CC928E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CB26AEB2098504600CC928E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CB26AF02098504600CC928E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3CB26AF12098504600CC928E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CB26AF32098504600CC928E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23Y2DCH2N6;
+				INFOPLIST_FILE = SoundLoopDemoOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sensus.SoundLoopDemoOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CB26AF42098504600CC928E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23Y2DCH2N6;
+				INFOPLIST_FILE = SoundLoopDemoOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sensus.SoundLoopDemoOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CB26AD72098504200CC928E /* Build configuration list for PBXProject "SoundLoopDemoOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB26AF02098504600CC928E /* Debug */,
+				3CB26AF12098504600CC928E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CB26AF22098504600CC928E /* Build configuration list for PBXNativeTarget "SoundLoopDemoOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB26AF32098504600CC928E /* Debug */,
+				3CB26AF42098504600CC928E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CB26AD42098504200CC928E /* Project object */;
+}
