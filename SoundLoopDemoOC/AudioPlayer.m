@@ -3,7 +3,7 @@
 //  SoundLoopDemoOC
 //
 //  Created by DP Bhatt on 01/05/2018.
-//  Copyright © 2018 Sensus ApS. All rights reserved.
+//  Copyright © 2018 XYZ. All rights reserved.
 //
 #import <AVFoundation/AVFoundation.h>
 #import "AudioPlayer.h"
@@ -42,28 +42,6 @@
     return self;
 }
 
-/*
- -(void) setAudioPlayerPitch:(float) pitch rate: (float) rate{
- //[[audioPlayers objectAtIndex: _currentPlayer] pause];
- [avAudioPlayerTimePitch setPitch:pitch];
- [avAudioPlayerTimePitch setRate:rate];
- //[(AVAudioPlayerNode*)[audioPlayers objectAtIndex: _currentPlayer] play];
- }
- 
- -(void) setAudioPlayerPitch:(float) pitch rate: (float) rate volume:(float) volume{
- //[[audioPlayers objectAtIndex: _currentPlayer] pause];
- [avAudioPlayerTimePitch setPitch:pitch];
- [avAudioPlayerTimePitch setRate:rate];
- [[audioPlayers objectAtIndex: _currentPlayer] setVolume: volume];
- //[(AVAudioPlayerNode*)[audioPlayers objectAtIndex: _currentPlayer] play];
- }
- 
- -(void) setVolume:(float) tag{
- //[[audioPlayers objectAtIndex: _currentPlayer] pause];
- [[audioPlayers objectAtIndex: _currentPlayer] setVolume:tag];
- //[(AVAudioPlayerNode*)[audioPlayers objectAtIndex: _currentPlayer] play];
- }
- */
 -(void) stopAudio: (NSInteger) tag{
     if([audioPlayers[tag] isPlaying]){
         [audioPlayers[tag] pause];
@@ -88,7 +66,6 @@
         AVAudioFile *file = [[AVAudioFile alloc] initForReading:url error:nil];
         [buffer addObject:file];
     }
-    
     audioFiles = [buffer copy];
 }
 
